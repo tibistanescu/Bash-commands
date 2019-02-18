@@ -11,10 +11,12 @@ Input strings that we provide need to be enclosed in quotes if they contain spac
 > Best practice: Enclose all input strings in quotes.
 
 ## The "Home" directory
-In *nix systems there is a "Home" directory, that maps to "C\Users\MyUserFolder" in Windows.\
-This Home folder is where the terminal opens. It is represented by the ~ symbol.\
-Typing only _**cd**_ after the command prompt will return you to the root level of the home folder.\
+In \*nix systems there is a "Home" directory, that maps to "C\Users\MyUserFolder" in Windows.  
+This Home folder is where the terminal opens. It is represented by the ~ symbol.  
+Typing only _**cd**_ after the command prompt will return you to the root level of the home folder.
 
+<br>
+<br>
 
 # Navigate the File System
 ### Navigate to the Home Directory
@@ -37,6 +39,9 @@ $ cd -
 ```bash
 $ cd ..
 ```
+
+<br>
+<br>
 
 # Show directory contents
 ### List contents of the current directory
@@ -72,6 +77,9 @@ $ ls -1 *
 $ ls -d */
 ```
 
+<br>
+<br>
+
 # Create files
 ### Create a new empty file in the current directory
 ```bash
@@ -102,6 +110,9 @@ $ echo "This text is appended to the file contents" >> ~/ExistingParentDirectory
 $ echo "This text is appended to the file contents" > ~/ExistingParentDirectory/newFile.txt
 ```
 
+<br>
+<br>
+
 # Create new directory
 ### Create a new directory in the current directory
 ```bash
@@ -124,6 +135,9 @@ $ mkdir -p ~/NewParentFolder/NewFolderName
 $ mkdir -p --verbose /c/NewParentFolder/NewFolderName
 ```
 
+<br>
+<br>
+
 # Remove files
 ### Remove specified file from the current directory
 ```bash
@@ -137,6 +151,9 @@ $ rm -i fileName.txt
 ```bash
 $ rm -v fileName.txt
 ```
+
+<br>
+<br>
 
 # Remove directories
 ### Remove empty folder
